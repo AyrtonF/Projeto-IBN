@@ -1,0 +1,58 @@
+{
+  "name": "Projeto-IBN",
+  "bucket": "Projeto-IBN",
+  "preset": "angular",
+  "env": "production",
+  "prefix": "20250108150503",
+  "not-first-run": true,
+  "function": {
+    "id": 35513,
+    "name": "__DEFAULT__",
+    "file": ".edge/worker.js",
+    "args": "azion/args.json",
+    "instance-id": 34037,
+    "instance-name": "__DEFAULT__",
+    "cache-id": 0
+  },
+  "application": {
+    "id": 1736348657,
+    "name": "__DEFAULT__"
+  },
+  "domain": {
+    "id": 1736342192,
+    "name": "Projeto-IBN",
+    "domain_name": "lpzvyjmu5l.map.azionedge.net",
+    "url": "https://lpzvyjmu5l.map.azionedge.net"
+  },
+  "rt-purge": {
+    "purge_on_publish": true
+  },
+  "origin": [
+    {
+      "origin-id": 179268,
+      "origin-key": "9c2d647d-4056-4f06-a017-aaefa58416db",
+      "name": "origin-storage-default"
+    }
+  ],
+  "rules-engine": {
+    "created": false,
+    "rules": [
+      {
+        "id": 344348,
+        "name": "Set Storage Origin for All Requests",
+        "phase": "request"
+      },
+      {
+        "id": 344349,
+        "name": "Deliver Static Assets",
+        "phase": "request"
+      },
+      {
+        "id": 344350,
+        "name": "Redirect to index.html",
+        "phase": "request"
+      }
+    ]
+  },
+  "cache-settings": []
+}
